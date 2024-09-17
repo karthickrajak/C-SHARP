@@ -13,6 +13,8 @@ namespace Leap_year
             Console.Write("Enter the year-->");
             int year = int.Parse(Console.ReadLine());
             if (year % 4 == 0)
+                 if(year%100==0)
+                     if(year%400==0)
             {
                 Console.Write("It is an Leap year");
                 Console.ReadLine();
